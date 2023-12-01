@@ -14,13 +14,6 @@ form.addEventListener("submit", (e) => {
   engine(phone, 2, "Введіть телефон");
   engine(idcard, 3, "Пустий рядок");
   engine(faculty, 4, "Введіть факультет");
-  // if (fullname.value === "") {
-  //   messageErr[0].innerHTML = "Введіть прізвище";
-  //   fullname.classList.add("input-error");
-  // } else {
-  //   messageErr[0].innerHTML = "";
-  //   fullname.classList.remove("input-error");
-  // }
 });
 
 let engine = (id, x, message) => {
@@ -33,11 +26,6 @@ let engine = (id, x, message) => {
     document.getElementById(
       "no-error"
     ).innerHTML = `Введені дані:  <br><br> ${fullname.value}  <br><br> ${group.value}  <br><br> ${phone.value}  <br><br> ${idcard.value}  <br><br> ${faculty.value}`;
-    // var info = "";
-    // for (var i = 0; i < form.elements.length; i++) {
-    //   info += form.elements[i].name + ": " + form.elements[i].value + "\n";
-    // }
-    // alert("Form is valid!\n\n" + info);
   }
 };
 //завдання 2
