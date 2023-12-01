@@ -1,0 +1,66 @@
+.form-div {
+  display: flex;
+  flex-direction: row;
+}
+form {
+  text-align: center;
+  background-color: #d2f8d2;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+#no-error {
+  padding-top: 64px;
+  padding-right: 133px;
+}
+.table-div {
+  padding-top: 64px;
+}
+
+input[type="text"] {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  box-shadow: transparent 0 0 0 3px, rgba(18, 18, 18, 0.1) 0 6px 20px;
+  line-height: 1;
+  outline: none;
+  padding: 0.5rem 1.2rem;
+}
+
+.input-error {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+}
+.error {
+  color: red;
+  font-size: 14.5px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: #f0f0f0;
+}
