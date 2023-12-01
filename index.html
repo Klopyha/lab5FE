@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Лабораторна 5 Кубрак</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div class="form-div">
+      <form id="myForm">
+        <h2>Форма для заповнення</h2>
+        <div>
+          <label for="fullname">ПІБ:</label><br />
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="ТТТТТТ Т.Т."
+          />
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="group">Група:</label><br />
+          <input type="text" id="group" name="group" placeholder="ТТ-ЧЧ" />
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="phone">Телефон:</label><br />
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="(ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ"
+          />
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="idcard">ID-card:</label><br />
+          <input
+            type="text"
+            id="idcard"
+            name="idcard"
+            placeholder="ТТ №ЧЧЧЧЧЧ"
+          />
+          <div class="error"></div>
+        </div>
+        <div>
+          <label for="faculty">Факультет:</label><br />
+          <input type="text" id="faculty" name="faculty" placeholder="ТТТТ" />
+          <div class="error"></div>
+        </div>
+        <input type="submit" value="Підтвердити" />
+      </form>
+      <div id="no-error"></div>
+
+      <div class="table-div">
+        <table id="colorfulTable">
+          <tr>
+            <td>1</td>
+            <td id="cell2" onmouseover="changeColor(this)">2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td id="cell8">8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+            <td>12</td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>32</td>
+            <td>33</td>
+            <td>34</td>
+            <td>35</td>
+            <td>36</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
