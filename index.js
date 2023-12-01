@@ -63,6 +63,6 @@ function showColorPicker() {
 document.getElementById("cell2").addEventListener("dblclick", function () {
   changeColumnColor();
 });
-document.getElementById("cell2").addEventListener("click", function () {
+document.getElementById("cell8").addEventListener("click", function () {
   showColorPicker();
 });
